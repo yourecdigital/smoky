@@ -1,0 +1,16 @@
+<svg width="1000" height="1400" viewBox="0 0 1000 1400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="1400" fill="#07070A"/>
+  <rect x="38" y="38" width="924" height="1324" stroke="#E8491D" stroke-width="6"/>
+  <rect x="62" y="62" width="876" height="1276" stroke="#D4A846" stroke-opacity=".55" stroke-width="2"/>
+  <circle cx="500" cy="455" r="315" fill="#E8491D" fill-opacity=".16"/>
+  <circle cx="500" cy="455" r="210" fill="#D4A846" fill-opacity=".08"/>
+  <path d="M123 1004C286 907 394 889 501 934C608 979 715 953 877 840" stroke="#E8491D" stroke-opacity=".45" stroke-width="18"/>
+  <path d="M118 1046C281 949 396 927 506 972C616 1017 722 987 882 882" stroke="#D4A846" stroke-opacity=".35" stroke-width="8"/>
+  <text x="500" y="205" text-anchor="middle" fill="#D4A846" font-family="Impact, 'Arial Narrow', sans-serif" font-size="44" letter-spacing="10"> #</text>
+  <text x="500" y="395" text-anchor="middle" fill="#F0ECE6" font-family="Impact, 'Arial Narrow', sans-serif" font-size="220" letter-spacing="-5">!</text>
+  <text x="500" y="590" text-anchor="middle" fill="#E8491D" font-family="Impact, 'Arial Narrow', sans-serif" font-size="250" letter-spacing="-5"></text>
+  <text x="500" y="700" text-anchor="middle" fill="#D4A846" font-family="Arial, sans-serif" font-size="33" letter-spacing="13">/ !"  (+</text>
+  <text x="500" y="810" text-anchor="middle" fill="#F0ECE6" font-family="Impact, 'Arial Narrow', sans-serif" font-size="78" letter-spacing="8">24.05 · 20:00</text>
+  <text x="500" y="890" text-anchor="middle" fill="#A29B90" font-family="Arial, sans-serif" font-size="30" letter-spacing="5">/ 8 · 21+</text>
+  <text x="500" y="1190" text-anchor="middle" fill="#E8491D" fill-opacity=".22" font-family="Impact, 'Arial Narrow', sans-serif" font-size="150" letter-spacing="18">FC/DC</text>
+</svg>
