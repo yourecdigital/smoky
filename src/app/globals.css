@@ -116,9 +116,10 @@ nav.hide{transform:translateY(-100%)}
 .info-card h3{font-family:var(--font-oswald);font-size:.85rem;text-transform:uppercase;letter-spacing:4px;margin-bottom:1rem;color:var(--accent)}
 .info-card p{color:rgba(240,236,230,.55);line-height:1.8;font-size:.9rem}
 .info-card .big{font-family:var(--font-bebas);font-size:2.2rem;color:var(--text);display:block;margin-bottom:.5rem}
-.poster-sec{padding:6rem 2rem;text-align:center}
-.poster-frame{max-width:500px;margin:0 auto;position:relative;padding:8px;background:linear-gradient(135deg,var(--accent),var(--gold),var(--accent));opacity:0;transform:perspective(800px) rotateY(5deg);transition:all .8s}
-.poster-frame.vis{opacity:1;transform:perspective(800px) rotateY(0deg)}
+.poster-sec{padding:6rem 2rem;text-align:center;perspective:1200px}
+.poster-frame{max-width:500px;margin:0 auto;position:relative;padding:8px;background:linear-gradient(135deg,var(--accent),var(--gold),var(--accent));opacity:0;transform:rotateY(-82deg) rotateX(8deg) translateY(36px) scale(.9);transform-style:preserve-3d;filter:blur(6px) brightness(.75);transition:box-shadow .45s}
+.poster-frame.vis{opacity:1;animation:posterFlip 1.05s cubic-bezier(.18,.85,.2,1.08) forwards}
+.poster-frame:hover{box-shadow:0 0 45px rgba(232,73,29,.28)}
 .poster-frame img{width:100%;display:block;filter:contrast(1.05)}
 .poster-frame::after{content:'';position:absolute;inset:0;box-shadow:0 25px 60px rgba(0,0,0,.6),0 0 100px rgba(232,73,29,.1)}
 .cta{padding:8rem 2rem;text-align:center;position:relative;overflow:hidden}
@@ -143,6 +144,7 @@ footer .fr{font-size:.65rem;color:rgba(255,255,255,.2);letter-spacing:2px;text-t
 @keyframes sprayFog{0%{transform:translate(-3%,2%) rotate(0deg);opacity:.55}100%{transform:translate(4%,-3%) rotate(6deg);opacity:.9}}
 @keyframes vibeStatic{0%{transform:translate(0,0)}33%{transform:translate(2px,-1px)}66%{transform:translate(-2px,1px)}100%{transform:translate(0,0)}}
 @keyframes tagSlide{0%,88%,100%{transform:translate(0,0) rotate(-8deg)}90%{transform:translate(-3px,2px) rotate(-10deg)}92%{transform:translate(2px,-1px) rotate(-7deg)}}
+@keyframes posterFlip{0%{opacity:0;transform:rotateY(-82deg) rotateX(8deg) translateY(36px) scale(.9);filter:blur(6px) brightness(.75)}58%{opacity:1;transform:rotateY(10deg) rotateX(-2deg) translateY(-8px) scale(1.025);filter:blur(0) brightness(1.08)}100%{opacity:1;transform:rotateY(0) rotateX(0) translateY(0) scale(1);filter:blur(0) brightness(1)}}
 @media(max-width:768px){
   .n-links{display:none}
   .vibe-grid{grid-template-columns:1fr 1fr}
