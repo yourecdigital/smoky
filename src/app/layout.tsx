@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "СМОКИ МО — Ораниенбаум 24.05",
     description: "Легендарный день города Ораниенбаум для старой школы",
-    images: [`${basePath}/poster.svg`],
+    images: [`${basePath}/poster.jpg`],
   },
 };
 

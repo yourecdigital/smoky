@@ -136,7 +136,7 @@ function VibeScenes() {
 export default function SmokyLanding() {
   const [preloaded, setPreloaded] = useState(false);
   const [time, setTime] = useState(ZERO_TIME);
-  const poster = assetPath("/poster.svg");
+  const poster = assetPath("/poster.jpg");
 
   useEffect(() => {
     const preloader = window.setTimeout(() => setPreloaded(true), 1000);
