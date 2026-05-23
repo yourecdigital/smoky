@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 
 const TARGET = new Date("2026-05-24T20:00:00+03:00").getTime();
+const EMPTY_TIME = { d: 0, h: 0, m: 0, s: 0 };
 
 function calc() {
   const d = Math.max(0, TARGET - Date.now());
@@ -26,8 +27,14 @@ function Block({ n, label }: { n: number; label: string }) {
 }
 
 export default function Countdown() {
-  const [t, setT] = useState(calc);
-  useEffect(() => { const id = setInterval(() => setT(calc), 1000); return () => clearInterval(id); }, []);
+  const [t, setT] = useState(EMPTY_TIME);
+
+  useEffect(() => {
+    setT(calc());
+    const id = setInterval(() => setT(calc()), 1000);
+
+    return () => clearInterval(id);
+  }, []);
 
   return (
     <section className="py-20 px-8 text-center">

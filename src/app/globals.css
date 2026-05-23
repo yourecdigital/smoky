@@ -10,12 +10,6 @@
   --color-muted: #666666;
 }
 
-@font-face {
-  font-family: 'Bebas Neue';
-  src: url('https://fonts.gstatic.com/s/bebasneue/v14/JTUSjIg69CK48gW7PXooxW5rygbi49c.woff2') format('woff2');
-  font-display: swap;
-}
-
 * { margin: 0; padding: 0; box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 ::selection { background: var(--color-accent); color: #fff; }
