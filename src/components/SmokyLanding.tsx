@@ -136,6 +136,7 @@ function VibeScenes() {
 export default function SmokyLanding() {
   const [preloaded, setPreloaded] = useState(false);
   const [time, setTime] = useState(ZERO_TIME);
+  const heroBg = assetPath("/hero-bg.jpg");
   const poster = assetPath("/poster.jpg");
 
   useEffect(() => {
@@ -207,7 +208,7 @@ export default function SmokyLanding() {
       </nav>
 
       <section className="hero">
-        <div className="hero-img" style={{ backgroundImage: `url("${poster}")` }} />
+        <div className="hero-img" style={{ backgroundImage: `url("${heroBg}")` }} />
         <div className="hero-grad" />
         <div className="hero-noise" />
         <div className="hero-c">

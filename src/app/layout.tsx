@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
-import { Inter, Oswald, Bebas_Neue } from "next/font/google";
+import { Inter, Oswald, Bebas_Neue, Rubik_Glitch } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin", "cyrillic"], variable: "--font-inter" });
 const oswald = Oswald({ subsets: ["latin", "cyrillic"], variable: "--font-oswald" });
 const bebas = Bebas_Neue({ weight: "400", subsets: ["latin"], variable: "--font-bebas" });
+const graffiti = Rubik_Glitch({ weight: "400", subsets: ["latin", "cyrillic"], variable: "--font-graffiti" });
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 const owner = process.env.GITHUB_REPOSITORY?.split("/")[0] ?? "yourecdigital";
 
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="ru" className={`${inter.variable} ${oswald.variable} ${bebas.variable}`}>
+    <html lang="ru" className={`${inter.variable} ${oswald.variable} ${bebas.variable} ${graffiti.variable}`}>
       <body>{children}</body>
     </html>
   );
