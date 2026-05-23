@@ -41,11 +41,11 @@ function VibeScenes() {
             <rect x="250" y="70" width="60" height="80" fill="#1d1812" rx="3" />
             <rect x="140" y="170" width="120" height="80" fill="#221c14" rx="4" />
             <text x="155" y="218" fill="rgba(232,73,29,.25)" fontFamily="sans-serif" fontSize="14" letterSpacing="2">
-              РАМБОВ
+              КАРА-ТЭ
             </text>
           </svg>
         </div>
-        <div className="vc-txt">Дворы Рамбова</div>
+        <div className="vc-txt">Кара-Тэ</div>
       </div>
 
       <div className="vibe-card vc2">
@@ -62,11 +62,11 @@ function VibeScenes() {
             <circle cx="290" cy="185" r="12" fill="rgba(212,168,70,.06)" stroke="rgba(212,168,70,.1)" />
             <rect x="110" y="138" width="160" height="4" fill="rgba(212,168,70,.08)" rx="2" />
             <text x="140" y="105" fill="rgba(212,168,70,.2)" fontFamily="sans-serif" fontSize="18" letterSpacing="6">
-              CLASSIC
+              БЕЛЫЙ БЛЮЗ
             </text>
           </svg>
         </div>
-        <div className="vc-txt">Спорт классик</div>
+        <div className="vc-txt">Белый блюз</div>
       </div>
 
       <div className="vibe-card vc3">
@@ -90,7 +90,7 @@ function VibeScenes() {
             <line x1="40" y1="190" x2="360" y2="190" stroke="rgba(255,255,255,.04)" strokeWidth="1" />
           </svg>
         </div>
-        <div className="vc-txt">Живой звук</div>
+        <div className="vc-txt">Выход из темноты</div>
       </div>
 
       <div className="vibe-card vc4">
@@ -105,11 +105,11 @@ function VibeScenes() {
             <circle cx="200" cy="70" r="3" fill="rgba(232,73,29,.08)" />
             <circle cx="200" cy="86" r="3" fill="rgba(232,73,29,.08)" />
             <text x="145" y="235" fill="rgba(232,73,29,.15)" fontFamily="sans-serif" fontSize="14" letterSpacing="6">
-              CASUAL
+              ПИТЕР
             </text>
           </svg>
         </div>
-        <div className="vc-txt">Кэжуал кру</div>
+        <div className="vc-txt">Питерский нерв</div>
       </div>
 
       <div className="vibe-card vc5">
@@ -120,14 +120,14 @@ function VibeScenes() {
             <path d="M100 140 L300 140 Q310 145 300 150 L100 150 Q90 145 100 140Z" fill="rgba(180,140,60,.1)" />
             <rect x="170" y="100" width="60" height="14" fill="rgba(180,140,60,.06)" rx="2" />
             <text x="175" y="112" fill="rgba(180,140,60,.15)" fontFamily="sans-serif" fontSize="9" letterSpacing="2">
-              SAINT-P
+              ЧЕСТНО
             </text>
             <text x="120" y="210" fill="rgba(180,140,60,.1)" fontFamily="sans-serif" fontSize="28" letterSpacing="8">
-              OLD SCHOOL
+              БЕЗ ПОНТОВ
             </text>
           </svg>
         </div>
-        <div className="vc-txt">Олдскул вайб</div>
+        <div className="vc-txt">Честный звук</div>
       </div>
     </>
   );
@@ -247,7 +247,7 @@ export default function SmokyLanding() {
       <section className="vibe" id="vibe">
         <div className="vibe-head">
           <h2>Вайб <span>вечера</span></h2>
-          <p>Sport classic &middot; Casual &middot; Old school</p>
+          <p>Кара-Тэ &middot; Белый блюз &middot; Выход из темноты</p>
         </div>
         <div className="vibe-grid"><VibeScenes /></div>
       </section>

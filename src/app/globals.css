@@ -71,17 +71,17 @@ nav.hide{transform:translateY(-100%)}
 .vibe-card::after{position:absolute;right:.7rem;top:.55rem;z-index:4;font-family:var(--font-graffiti),var(--font-bebas);font-size:clamp(1.35rem,2.5vw,2.5rem);letter-spacing:1px;color:rgba(255,106,50,.42);-webkit-text-stroke:1px rgba(0,0,0,.5);text-shadow:2px 2px 0 rgba(0,0,0,.6);transform:rotate(-8deg);animation:tagSlide 4.5s steps(2,end) infinite}
 .vibe-card:hover{border-color:rgba(232,73,29,.65);box-shadow:inset 0 0 0 1px rgba(255,255,255,.06),0 0 32px rgba(232,73,29,.22),0 25px 55px rgba(0,0,0,.5);transform:translateY(-5px) rotate(-.6deg)}
 .vibe-card:hover::before{opacity:.62;animation:vibeStatic .28s steps(2,end) infinite}
-.vibe-card .vc-txt{position:relative;z-index:5;font-family:var(--font-oswald);font-size:.8rem;text-transform:uppercase;letter-spacing:3px;color:#fff;opacity:.86;transform:translateY(0);transition:all .4s;text-shadow:2px 2px 0 #000,0 0 20px rgba(232,73,29,.45)}
+.vibe-card .vc-txt{position:relative;z-index:5;font-family:var(--font-oswald);font-size:.74rem;line-height:1.35;text-transform:uppercase;letter-spacing:3px;color:#fff;opacity:.86;transform:translateY(0);transition:all .4s;text-shadow:2px 2px 0 #000,0 0 20px rgba(232,73,29,.45)}
 .vibe-card:hover .vc-txt{opacity:1;letter-spacing:4px;color:#ffdfc8}
 .vc-scene{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;filter:contrast(1.18) saturate(.9);animation:scenePulse 6s ease-in-out infinite}
 .vc-scene::before{content:'';position:absolute;inset:-25%;background:radial-gradient(circle at 18% 82%,rgba(232,73,29,.18),transparent 30%),radial-gradient(circle at 88% 12%,rgba(212,168,70,.14),transparent 28%);animation:sprayFog 7s ease-in-out infinite alternate}
 .vc-scene::after{content:'';position:absolute;inset:0;background:linear-gradient(45deg,transparent 47%,rgba(255,255,255,.045) 48%,rgba(255,255,255,.045) 52%,transparent 53%);background-size:28px 28px;opacity:.38;mix-blend-mode:screen}
 .vc-scene svg{width:100%;height:100%;position:relative;z-index:1}
-.vc1::after{content:'1982'}
-.vc2::after{content:'KICKS'}
-.vc3::after{content:'BASS'}
-.vc4::after{content:'CREW'}
-.vc5::after{content:'OLD'}
+.vc1::after{content:'КАРА-ТЭ'}
+.vc2::after{content:'БЛЮЗ'}
+.vc3::after{content:'ВЫХОД'}
+.vc4::after{content:'ПИТЕР'}
+.vc5::after{content:'ЗВУК'}
 .vc1{background:linear-gradient(135deg,#1a1410 0%,#0d0806 100%)}
 .vc1::before{background:linear-gradient(0deg,rgba(232,73,29,.6),transparent)}
 .vc2{background:linear-gradient(135deg,#12100e 0%,#0a0808 100%)}
